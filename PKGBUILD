@@ -1,5 +1,4 @@
-# Maintainer: Your Name <your.email@example.com>
-# Contributor: Your Name <your.email@example.com>
+# Maintainer: Nicholas Fedor <nick@nickfedor.com>
 
 pkgname=adguard-dns-cli
 _pkgname=AdGuardDNSCLI
