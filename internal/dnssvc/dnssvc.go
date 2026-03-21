@@ -59,8 +59,7 @@ func New(conf *Config) (svc *DNSService, err error) {
 		clientGetter: conf.ClientGetter,
 		clients:      newClientStorage(clients),
 	}
-	prxConf.BeforeRequestHandler = svc
-	prxConf.RequestHandler = svc.handleRequest
+	prxConf.RequestHandler = svc
 
 	prx, err := proxy.New(prxConf)
 	if err != nil {
@@ -184,26 +183,19 @@ func (svc *DNSService) closeBootstraps() (errs []error) {
 }
 
 // type check
-var _ proxy.BeforeRequestHandler = (*DNSService)(nil)
+var _ proxy.Handler = (*DNSService)(nil)
 
-// HandleBefore implements the [proxy.BeforeRequestHandler] interface for
-// *DNSService.
-func (svc *DNSService) HandleBefore(p *proxy.Proxy, dctx *proxy.DNSContext) (err error) {
+// ServeDNS implements the [proxy.Handler] interface for *DNSService.
+func (svc *DNSService) ServeDNS(ctx context.Context, p *proxy.Proxy, dctx *proxy.DNSContext) (err error) {
 	// This is used to substitute the client's address in tests.
 	dctx.Addr = svc.clientGetter.Address(dctx)
 
 	// Check the address privateness because proxy does it before substitution.
 	// See TODO on [DNSService.clientGetter].
-	dctx.IsPrivateClient = svc.proxy.PrivateSubnets.Contains(dctx.Addr.Addr())
-
-	return nil
-}
-
-// handleRequest is a [proxy.RequestHandler].
-func (svc *DNSService) handleRequest(p *proxy.Proxy, dctx *proxy.DNSContext) (err error) {
+	dctx.IsPrivateClient = p.PrivateSubnets.Contains(dctx.Addr.Addr())
 	if dctx.RequestedPrivateRDNS != (netip.Prefix{}) {
 		// Don't match client for private PTR request.
-		return p.Resolve(dctx)
+		return p.Resolve(ctx, dctx)
 	}
 
 	c := svc.clients.find(dctx.Addr.Addr())
@@ -211,5 +203,5 @@ func (svc *DNSService) handleRequest(p *proxy.Proxy, dctx *proxy.DNSContext) (er
 		dctx.CustomUpstreamConfig = c.conf
 	}
 
-	return p.Resolve(dctx)
+	return p.Resolve(ctx, dctx)
 }
