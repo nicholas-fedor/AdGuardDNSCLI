@@ -21,3 +21,7 @@ adguarddns-cli
 adguarddns-cli.exe
 config.yaml
 backup-*.dir
+*pkg.tar.zst
+*.tar.gz
+/src/
+/pkg/
