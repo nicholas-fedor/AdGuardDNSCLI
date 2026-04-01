@@ -21,7 +21,7 @@ require (
 	github.com/BurntSushi/toml v1.6.0 // indirect
 	github.com/ameshkov/dnscrypt/v2 v2.4.0 // indirect
 	github.com/ameshkov/dnsstamps v1.0.3 // indirect
-	github.com/anthropics/anthropic-sdk-go v1.27.1 // indirect
+	github.com/anthropics/anthropic-sdk-go v1.28.0 // indirect
 	github.com/bluele/gcache v0.0.2 // indirect
 	github.com/ccojocar/zxcvbn-go v1.0.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
