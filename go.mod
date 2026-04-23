@@ -3,7 +3,7 @@ module github.com/AdguardTeam/AdGuardDNSCLI
 go 1.26.2
 
 require (
-	github.com/AdguardTeam/dnsproxy v0.81.1
+	github.com/AdguardTeam/dnsproxy v0.81.2
 	github.com/AdguardTeam/golibs v0.35.12
 	github.com/c2h5oh/datasize v0.0.0-20231215233829-aa82cc1e6500
 	github.com/google/renameio/v2 v2.0.2
