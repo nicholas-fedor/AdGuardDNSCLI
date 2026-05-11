@@ -16,8 +16,8 @@ github.com/ameshkov/dnscrypt/v2 v2.4.0 h1:if6ZG2cuQmcP2TwSY+D0+8+xbPfoatufGlOQTM
 github.com/ameshkov/dnscrypt/v2 v2.4.0/go.mod h1:WpEFV2uhebXb8Jhes/5/fSdpmhGV8TL22RDaeWwV6hI=
 github.com/ameshkov/dnsstamps v1.0.3 h1:Srzik+J9mivH1alRACTbys2xOxs0lRH9qnTA7Y1OYVo=
 github.com/ameshkov/dnsstamps v1.0.3/go.mod h1:Ii3eUu73dx4Vw5O4wjzmT5+lkCwovjzaEZZ4gKyIH5A=
-github.com/anthropics/anthropic-sdk-go v1.41.0 h1:D//vDxQMAmWOcOV3QtgESOneIxJOfWxGIHsmJgGGGp4=
-github.com/anthropics/anthropic-sdk-go v1.41.0/go.mod h1:UgnI27pSnfj2Ux2iE6Dkq9o/3MZn0jdalFdQIdWMS+Q=
+github.com/anthropics/anthropic-sdk-go v1.42.0 h1:Zv882/dnrE4OHnwhMAsi9lwVVXRF8GtR3ofiBResYUw=
+github.com/anthropics/anthropic-sdk-go v1.42.0/go.mod h1:r4eaLX9tBolUrXLOrLj7eU8tmeBtoobCkM0kBsivBaY=
 github.com/bahlo/generic-list-go v0.2.0 h1:5sz/EEAK+ls5wF+NeqDpk5+iNdMDXrh3z3nPnH1Wvgk=
 github.com/bahlo/generic-list-go v0.2.0/go.mod h1:2KvAjgMlE5NNynlg/5iLrrCCZ2+5xWbdbCW3pNTGyYg=
 github.com/bluele/gcache v0.0.2 h1:WcbfdXICg7G/DGBh1PFfcirkWOQV+v077yF1pSy3DGw=
