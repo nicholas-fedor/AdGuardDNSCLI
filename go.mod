@@ -43,7 +43,7 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/jstemmer/go-junit-report/v2 v2.1.0 // indirect
-	github.com/kisielk/errcheck v1.10.0 // indirect
+	github.com/kisielk/errcheck v1.20.0 // indirect
 	github.com/mailru/easyjson v0.9.2 // indirect
 	github.com/openai/openai-go/v3 v3.35.0 // indirect
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
