@@ -4,7 +4,7 @@
 pkgname=adguard-dns-cli
 _pkgname=AdGuardDNSCLI
 _basever=0.0.1
-pkgver=0.1.1.r55.g6bce74a
+pkgver=0.1.1.r108.gd181e57
 pkgrel=1
 pkgdesc='A cross-platform lightweight DNS client for AdGuard DNS'
 arch=('x86_64' 'aarch64')
@@ -12,7 +12,7 @@ backup=('opt/adguard-dns-cli/config.yaml')
 url='https://github.com/nicholas-fedor/AdGuardDNSCLI'
 license=('Apache-2.0')
 depends=()
-makedepends=('go>=1.26.2' 'git')
+makedepends=('go>=1.26.3' 'git')
 checkdepends=()
 source=()
 
