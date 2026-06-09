@@ -4,7 +4,7 @@
 pkgname=adguard-dns-cli
 _pkgname=AdGuardDNSCLI
 _basever=0.0.1
-pkgver=0.1.1.r108.gd181e57
+pkgver=0.1.1.r167.g56dff83
 pkgrel=1
 pkgdesc='A cross-platform lightweight DNS client for AdGuard DNS'
 arch=('x86_64' 'aarch64')
