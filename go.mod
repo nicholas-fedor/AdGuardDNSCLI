@@ -24,6 +24,7 @@ require (
 	github.com/anthropics/anthropic-sdk-go v1.48.0 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/bluele/gcache v0.0.2 // indirect
+	github.com/bmatcuk/doublestar/v4 v4.7.1 // indirect
 	github.com/buger/jsonparser v1.2.0 // indirect
 	github.com/ccojocar/zxcvbn-go v1.0.4 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -36,6 +37,7 @@ require (
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
+	github.com/google/yamlfmt v0.21.0 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.16 // indirect
 	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
 	github.com/gookit/color v1.6.1 // indirect
@@ -44,6 +46,7 @@ require (
 	github.com/invopop/jsonschema v0.14.0 // indirect
 	github.com/jstemmer/go-junit-report/v2 v2.1.0 // indirect
 	github.com/kisielk/errcheck v1.20.0 // indirect
+	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/openai/openai-go/v3 v3.39.0 // indirect
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -51,6 +54,7 @@ require (
 	github.com/quic-go/quic-go v0.60.0 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rogpeppe/go-internal v1.15.0 // indirect
+	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06 // indirect
 	github.com/securego/gosec/v2 v2.27.1 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
 	github.com/tidwall/gjson v1.19.0 // indirect
@@ -88,6 +92,7 @@ require (
 	mvdan.cc/gofumpt v0.10.0 // indirect
 	mvdan.cc/sh/v3 v3.13.1 // indirect
 	mvdan.cc/unparam v0.0.0-20251027182757-5beb8c8f8f15 // indirect
+	sigs.k8s.io/yaml v1.6.0 // indirect
 )
 
 // NOTE:  Keep in sync with .gitignore.
@@ -102,6 +107,7 @@ ignore (
 tool (
 	github.com/fzipp/gocyclo/cmd/gocyclo
 	github.com/golangci/misspell/cmd/misspell
+	github.com/google/yamlfmt/cmd/yamlfmt
 	github.com/gordonklaus/ineffassign
 	github.com/jstemmer/go-junit-report/v2
 	github.com/kisielk/errcheck

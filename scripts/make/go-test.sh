@@ -3,7 +3,10 @@
 # This comment is used to simplify checking local copies of the script.  Bump
 # this number every time a significant change is made to this script.
 #
-# AdGuard-Project-Version: 8
+# AdGuard-Project-Version: 10
+
+# TODO(a.garipov): Use set -o 'pipefail' when the image supports it.
+set -e -f -u
 
 verbose="${VERBOSE:-0}"
 readonly verbose
@@ -26,8 +29,6 @@ else
 	x_flags='-x=0'
 fi
 readonly v_flags x_flags
-
-set -e -f -u
 
 if [ "${RACE:-1}" -eq '0' ]; then
 	race_flags='--race=0'
