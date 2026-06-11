@@ -83,7 +83,7 @@ require (
 	golang.org/x/vuln v1.3.0 // indirect
 	gonum.org/v1/gonum v0.17.0 // indirect
 	google.golang.org/api v0.284.0 // indirect
-	google.golang.org/genai v1.59.0 // indirect
+	google.golang.org/genai v1.60.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260610212136-7ab31c22f7ad // indirect
 	google.golang.org/grpc v1.81.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
