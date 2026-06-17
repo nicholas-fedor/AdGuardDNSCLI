@@ -76,7 +76,7 @@ require (
 	golang.org/x/mod v0.37.0 // indirect
 	golang.org/x/net v0.56.0 // indirect
 	golang.org/x/sync v0.21.0 // indirect
-	golang.org/x/telemetry v0.0.0-20260616164902-4de325e0180d // indirect
+	golang.org/x/telemetry v0.0.0-20260617140237-9b6dc03d9327 // indirect
 	golang.org/x/term v0.44.0 // indirect
 	golang.org/x/text v0.38.0 // indirect
 	golang.org/x/tools v0.46.0 // indirect
