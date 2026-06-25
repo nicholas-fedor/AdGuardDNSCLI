@@ -3,7 +3,7 @@ module github.com/AdguardTeam/AdGuardDNSCLI
 go 1.26.4
 
 require (
-	github.com/AdguardTeam/dnsproxy v0.81.4
+	github.com/AdguardTeam/dnsproxy v0.82.0
 	github.com/AdguardTeam/golibs v0.35.13
 	github.com/c2h5oh/datasize v0.0.0-20231215233829-aa82cc1e6500
 	github.com/google/renameio/v2 v2.0.2
@@ -18,8 +18,8 @@ require (
 	cloud.google.com/go v0.123.0 // indirect
 	cloud.google.com/go/auth v0.20.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
+	github.com/AdguardTeam/dnscrypt v0.0.1 // indirect
 	github.com/BurntSushi/toml v1.6.0 // indirect
-	github.com/ameshkov/dnscrypt/v2 v2.4.0 // indirect
 	github.com/ameshkov/dnsstamps v1.0.3 // indirect
 	github.com/anthropics/anthropic-sdk-go v1.52.0 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
