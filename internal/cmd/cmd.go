@@ -44,6 +44,7 @@ func Main() {
 
 	prog := &program{
 		conf:    conf,
+		done:    make(chan struct{}),
 		errCh:   make(chan error),
 		logger:  l,
 		logFile: logFile,
