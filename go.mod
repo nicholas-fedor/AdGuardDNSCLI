@@ -84,7 +84,7 @@ require (
 	gonum.org/v1/gonum v0.17.0 // indirect
 	google.golang.org/api v0.286.0 // indirect
 	google.golang.org/genai v1.62.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260630180045-74b09dfd81f8 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260630182238-925bb5da69e7 // indirect
 	google.golang.org/grpc v1.81.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	honnef.co/go/tools v0.7.0 // indirect
