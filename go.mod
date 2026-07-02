@@ -18,7 +18,7 @@ require (
 	cloud.google.com/go v0.123.0 // indirect
 	cloud.google.com/go/auth v0.20.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
-	github.com/AdguardTeam/dnscrypt v0.0.1 // indirect
+	github.com/AdguardTeam/dnscrypt v0.0.2 // indirect
 	github.com/BurntSushi/toml v1.6.0 // indirect
 	github.com/ameshkov/dnsstamps v1.0.3 // indirect
 	github.com/anthropics/anthropic-sdk-go v1.55.1 // indirect
