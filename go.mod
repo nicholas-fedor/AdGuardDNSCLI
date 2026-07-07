@@ -1,6 +1,6 @@
 module github.com/AdguardTeam/AdGuardDNSCLI
 
-go 1.26.4
+go 1.26.5
 
 require (
 	github.com/AdguardTeam/dnsproxy v0.83.0
