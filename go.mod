@@ -16,7 +16,7 @@ require (
 
 require (
 	cloud.google.com/go v0.123.0 // indirect
-	cloud.google.com/go/auth v0.20.0 // indirect
+	cloud.google.com/go/auth v0.21.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	github.com/AdguardTeam/dnscrypt v0.0.2 // indirect
 	github.com/BurntSushi/toml v1.6.0 // indirect
