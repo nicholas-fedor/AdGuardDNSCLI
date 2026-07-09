@@ -80,7 +80,7 @@ require (
 	golang.org/x/term v0.45.0 // indirect
 	golang.org/x/text v0.40.0 // indirect
 	golang.org/x/tools v0.48.0 // indirect
-	golang.org/x/vuln v1.5.0 // indirect
+	golang.org/x/vuln v1.6.0 // indirect
 	gonum.org/v1/gonum v0.17.0 // indirect
 	google.golang.org/api v0.287.1 // indirect
 	google.golang.org/genai v1.63.0 // indirect
