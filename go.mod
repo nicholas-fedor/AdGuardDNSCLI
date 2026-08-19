@@ -8,7 +8,7 @@ require (
 	github.com/c2h5oh/datasize v0.0.0-20231215233829-aa82cc1e6500
 	github.com/google/renameio/v2 v2.0.2
 	github.com/kardianos/service v1.3.0
-	github.com/miekg/dns v1.1.72
+	github.com/miekg/dns v1.1.73
 	github.com/stretchr/testify v1.12.0
 	golang.org/x/sys v0.47.0
 	gopkg.in/yaml.v3 v3.0.1
