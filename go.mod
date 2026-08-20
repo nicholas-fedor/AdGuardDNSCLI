@@ -9,7 +9,7 @@ require (
 	github.com/google/renameio/v2 v2.0.2
 	github.com/kardianos/service v1.3.0
 	github.com/miekg/dns v1.1.73
-	github.com/stretchr/testify v1.12.0
+	github.com/stretchr/testify v1.12.1
 	golang.org/x/sys v0.47.0
 	gopkg.in/yaml.v3 v3.0.1
 )
