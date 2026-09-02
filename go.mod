@@ -46,7 +46,7 @@ require (
 	github.com/jstemmer/go-junit-report/v2 v2.1.0 // indirect
 	github.com/kisielk/errcheck v1.20.0 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
-	github.com/openai/openai-go/v3 v3.54.0 // indirect
+	github.com/openai/openai-go/v3 v3.55.0 // indirect
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/quic-go/qpack v0.6.0 // indirect
 	github.com/quic-go/quic-go v0.62.0 // indirect
